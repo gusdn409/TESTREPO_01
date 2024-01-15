@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- UL태그 : 리스트형 구조생성 태그 -->
+
+    <!-- 기본형 : 순서번호가 없는 리스트 -->
+    <ul>
+        <li>LIST1</li>
+        <li>LIST2</li>
+        <li>LIST3</li>
+        <li>LIST4</li>
+
+    </ul>
+    <hr>
+
+    <!-- OL태그 : 순서번호가 있는 리스트 type=a,i,1-->
+    <ol type = "1">
+        <li>LIST1</li>
+        <li>LIST2</li>
+        <li>LIST3</li>
+        <li>LIST4</li>
+    </ol>
+    <hr>
+    <h4>2024년 임베디드웹 진행 커리큘럼</h4 >
+    <ol>
+        <li>
+            화면설계
+            <ol type = "I">
+                <li>유스케이스</li>
+                <li>스타일가이드</li>
+                <li>스토리보드</li>
+            </ol>
+        </li>
+        <li>화면설계</li>
+        <li>화면구현</li>
+        <li>데이터베이스</li>
+        <li>JAVA</li>
+        <li>JSP/SERVELT</li>
+        <li>SPRING</li>
+        <li>SPRINGBOOT</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>2023학년도 수강과목</li>
+            <ol type = "1">
+                <li>HTML/CSS/JS</li>
+                <li>Jquery</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+            </ol>
+        <li>학년</li>
+            <ol type = "A">
+                <li>1학년</li>
+                    <ul><li>HTML/CSS/JS/JQuery</li></ul>
+                <li>2학년</li>
+                    <ul><li>BootStrap/ Clone Coding</li></ul>
+                <li>3학년</li>
+                    <ul><li>React Redux</li></ul>
+                <li>4학년</li>
+                    <ul><li>Type Script/Next.js</li></ul>
+
+            </ol>
+        <li>백엔드언어</li>
+            <ol type = 'I'>
+                <li>JAVA</li>
+                <li>JSP</li>
+                <li>Servlet</li>
+                <li>Spring</li>
+                <li>Spring Boot</li>
+
+            </ol>
+        <hr>
+
+        <ul>
+            <li> 2023학년도 수강과목
+                <ol>
+                    <li>HTML/CSS/JS</li>
+                    <li>JQUERY</li>
+                    <li>REACT</li>
+                    <li>BOOTSTRAP</li>
+                </ol>
+            </li>
+            <li> 학년
+                <ol TYPE = "A">
+                    <li>1학년
+                        <ul>
+                            <li>HTML/CSS/JP/JQUERY</li>
+                        </ul>
+                    </li>
+                    <li>2학년
+                        <ul>
+                            <LI>BOOTSTRAP/ CLONE CODING</LI>
+                        </ul>
+                    </li>
+                    <li>3학년
+                        <ul>
+                            <LI>React Redux</LI>
+                        </ul>
+                    </li>
+                    <li>4학년
+                    <ul>
+                        <LI>Type Script/Next.js</LI>
+                    </ul>
+                    </li>
+                </ol>
+            </li>
+            <li> 백엔드 언어
+                <ol type = 'I'>
+                    <li>JAVA</li>
+                    <li>JSP</li>
+                    <li>Servlet</li>
+                    <li>Srping</li>
+                    <li>Spring Boot</li>
+                </ol>
+            </li>
+        </ul>
+        <hr>
+    <style>
+        ul{
+            list-style: none;
+            padding : 0px;
+        }
+        ul.menu01{
+            width : 400px;
+            border : 1px solid gray;
+            text-align:center;
+        }
+        ul.menu01 > li{
+            text-align:center;
+            height : 35px;
+            width : 200px;
+            border : 1px solid gray;
+            overflow : hidden;
+        }
+        ul.menu01 > li>a{
+            display:block;
+            line-height : 35px;
+            text-decoration : none;
+            color : black;
+        }
+        ul.menu02 > li>.menu02{
+            display:none;
+        }
+        ul.menu01 > li>a:hover  .menu02{
+            display:block;
+        }
+       
+
+    </style>
+
+    
+   
+    
+</body>
+
+    <ul class="menu01">
+        <li >
+            <a href="">MENU01</a>
+            <ul class="menu02">
+                <li>SUBMENU1</li>
+                <li>SUBMENU2</li>
+                <li>SUBMENU3</li>
+                <li>SUBMENU4</li>
+
+            </ul>
+        </li>
+
+
+    </ul>
+</html>
